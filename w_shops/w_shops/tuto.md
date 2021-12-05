@@ -2,7 +2,7 @@
   -- https://github.com/wiizzdev --
  -- https://discord.gg/VpYP58ZjmD --
 
-[Comment rajouter un item dans le menu ?]
+[Rajouter un item dans le menu ?]
 
 => aller dans le client.lua et copier le contenu de la ligne 41 à 45 puis coller le a la ligne 56 après avoir fait la touche ENTER.
 => remplacer le "wdev:achatPain par "wdev:achatMonitem".
