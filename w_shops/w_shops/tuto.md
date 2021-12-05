@@ -22,4 +22,4 @@ En jeu, appuyez sur F8 puis tapez "restart w_shops" et appuyez sur ENTER. Ceci r
 => les peds sont mis dans le script loffe_robbery fournis quand vous avez téléchargé sur github l'archive.
 => allez dans le config.lua et modifiez les coordonées x y z des peds. n'oubliez pas de mettre le hash du ped qui correspond a l'angle d'orientation.
 
-N'oubliez pas de star le projet sur github !
+N'hésitez pas a star le projet sur github !
