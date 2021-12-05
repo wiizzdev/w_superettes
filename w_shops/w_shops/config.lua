@@ -23,8 +23,8 @@ config.opacity = 50 -- opacité du marker
 -- BLIPS / SHOPS
 config.blipname = "Supérette" -- nom des blips
 config.blipscale = 0.6 -- taille des blips
-config.blipcolour = 2 -- couleur des blips
-config.blipsprite = 59 -- logo des blips
+config.blipcolour = 2 -- couleur des blips (https://docs.fivem.net/docs/game-references/blips/ => en bas de la page)
+config.blipsprite = 59 -- logo des blips (https://docs.fivem.net/docs/game-references/blips/)
 config.blipdisplay = 4 -- 4 = visible sur la grande map et la mininimap 5 = uniquement visible sur la minimap / 7 = uniquement visible sur la grande map
 
 Config = {
