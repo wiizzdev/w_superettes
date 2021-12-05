@@ -5,7 +5,7 @@ Menu Arrivant / RageUI v2 / Optimisé 0.00ms / Full Configurable
 
 #### Preview : https://www.youtube.com/watch?v=Sopl_M6D7uY
 
---> Les 18 supérettes du jeu sont toutes pré-configurés !
+--> Les 19 supérettes du jeu sont toutes pré-configurés !
 
 ### Screenshot :
 
