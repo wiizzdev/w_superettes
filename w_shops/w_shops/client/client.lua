@@ -13,25 +13,25 @@ end)
 local mainMenu = RageUI.CreateMenu("", "achetez ce que vous souhaitez") -- menu principal
 local manger = RageUI.CreateSubMenu(mainMenu, "", "une petite faim ?") -- sous-menu nourriture
 local boire = RageUI.CreateSubMenu(mainMenu, "", "une petite soif ?") -- sous-menu boissons
-local shop = false
+local open = false
 
 mainMenu.X = 0 -- position x du menu (1450 pour la droite de l'écran)
 mainMenu.Y = 0 -- position y du menu (780 pour le bas de l'écran)
 
 mainMenu.Closed = function() 
-    shop = false 
+    open = false 
 end 
 
 function shops() -- function qui fait le menu
-    if shop then 
-        shop = false 
+    if open then 
+        open = false 
             RageUI.Visible(mainMenu, false) 
         return 
     else 
-        shop = true 
+        open = true 
             RageUI.Visible(mainMenu, true)
         Citizen.CreateThread(function()
-            while shop do 
+            while open do 
                 RageUI.IsVisible(mainMenu, function()
                     RageUI.Button("Nourriture", nil, {RightLabel = "→"}, true, {}, manger) -- bouton du menu principal
                     RageUI.Button("Boissons", nil, {RightLabel = "→"}, true, {}, boire) -- bouton du menu principal
