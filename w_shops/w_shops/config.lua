@@ -29,8 +29,8 @@ config.blipdisplay = 4 -- 4 = visible sur la grande map et la mininimap 5 = uniq
 
 Config = {
     position = { -- coordonées des supérettes et des blips
-            {x = 2557.18,  y = 382.4,    z = 107.62},
-	        	{x = -3039.46, y = 585.99,   z = 6.91},
+            	{x = 2557.18,  y = 382.4,    z = 107.62},
+	        {x = -3039.46, y = 585.99,   z = 6.91},
 	        {x = -3242.34, y = 1001.7,   z = 11.83},
 	        {x = 547.44,   y = 2671.2,   z = 41.16},
 	        {x = 1961.43,  y = 3740.94,  z = 31.34},
