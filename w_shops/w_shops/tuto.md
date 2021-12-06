@@ -14,7 +14,7 @@ En jeu, appuyez sur F8 puis tapez "restart w_shops" et appuyez sur ENTER. Ceci r
 
 [Faire en sorte que certaines supérette ne soit plus braquable ?]
 
-=> aller dans le client.lua du script w_shops et collez le texte du pastebin (https://pastebin.com/LE1yNrfE) tout en bas du script.
+=> aller dans le client.lua du script w_shops et collez le texte du pastebin (https://pastebin.com/Sy2613dZ) tout en bas du script.
     mot de passe pastebin : wdev
 => supprimez les coordonées choisis des peds dans le config.lua du script loffe_robbery.
 
