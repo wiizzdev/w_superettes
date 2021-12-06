@@ -4,14 +4,14 @@
 
 config = {}
 
--- ITEMS (pour rajouter des items => client.lua / server.lua)
+-- PRIX LABEL (pour rajouter des items => client.lua / server.lua)
 config.prixitemmanger1 = "~g~5$" -- label du prix du premier item de la catégorie manger
 config.prixitemmanger2 = "~g~10$" -- label du prix du second item de la catégorie manger
 config.prixitemmanger3 = "~g~15$" -- label du prix du troisième item de la catégorie manger
 config.prixitemboire1 = "~g~10$" -- label du prix du premier item de la catégorie boire
 config.prixitemboire2 = "~g~20$" -- label du prix du second item de la catégorie boire
 config.prixitemboire3 = "~g~20$" -- label du prix du troisième item de la catégorie boire
--- (pour changer le prix réels des items => server.lua ligne 14/30/46/62/78/94)
+-- (pour changer le prix réels des items => server.lua lignes 14/30/46/62/78/94)
 
 -- MARKERS (pour changer la rotation et la taille des markers => client.lua ligne 93)
 config.markertype = 6 -- type de marker (https://docs.fivem.net/docs/game-references/markers/)
@@ -20,16 +20,16 @@ config.green = 255 -- couleur verte du marker
 config.blue = 255 -- couleur bleu du marker
 config.opacity = 50 -- opacité du marker
 
--- BLIPS / SHOPS
+-- BLIPS / SHOPS (https://docs.fivem.net/docs/game-references/blips/)
 config.blipname = "Supérette" -- nom des blips
 config.blipscale = 0.6 -- taille des blips
-config.blipcolour = 2 -- couleur des blips (https://docs.fivem.net/docs/game-references/blips/ => en bas de la page)
-config.blipsprite = 59 -- logo des blips (https://docs.fivem.net/docs/game-references/blips/)
+config.blipcolour = 2 -- couleur des blips
+config.blipsprite = 59 -- logo des blips
 config.blipdisplay = 4 -- 4 = visible sur la grande map et la mininimap 5 = uniquement visible sur la minimap / 7 = uniquement visible sur la grande map
 
 Config = {
     position = { -- coordonées des supérettes et des blips
-            	{x = 2557.18,  y = 382.4,    z = 107.62},
+            {x = 2557.18,  y = 382.4,    z = 107.62},
 	        {x = -3039.46, y = 585.99,   z = 6.91},
 	        {x = -3242.34, y = 1001.7,   z = 11.83},
 	        {x = 547.44,   y = 2671.2,   z = 41.16},
