@@ -9,9 +9,8 @@ TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 -- Event de l'achat de l'item 'water'
 RegisterNetEvent('wdev:achatEau') -- enregistrement de l'event
 AddEventHandler('wdev:achatEau', function() -- définition de l'event
-  local _src = source
   local joueur = ESX.GetPlayerFromId(source)  
-  local prix = 3 -- prix de l'item => changeable dans le config.lua
+  local prix = 10 -- prix réel de l'item
   local argent = joueur.getMoney()
     if argent >= prix then -- si l'argent est supérieur ou égal a l'argent alors
       joueur.removeMoney(prix) -- supprimer l'argent au joueur
@@ -25,9 +24,8 @@ end)
 -- Event de l'achat de l'item 'whisky'
 RegisterNetEvent('wdev:achatWhisky') -- enregistrement de l'event
 AddEventHandler('wdev:achatWhisky', function() -- définition de l'event
-  local _src = source
   local joueur = ESX.GetPlayerFromId(source)  
-  local prix = 3 -- prix de l'item => changeable dans le config.lua
+  local prix = 20 -- prix réel de l'item
   local argent = joueur.getMoney()
     if argent >= prix then -- si l'argent est supérieur ou égal a l'argent alors
       joueur.removeMoney(prix) -- supprimer l'argent au joueur
@@ -41,9 +39,8 @@ end)
 -- Event de l'achat de l'item 'mojito'
 RegisterNetEvent('wdev:achatMojito') -- enregistrement de l'event
 AddEventHandler('wdev:achatMojito', function() -- définition de l'event
-  local _src = source
   local joueur = ESX.GetPlayerFromId(source)  
-  local prix = 3 -- prix de l'item => changeable dans le config.lua
+  local prix = 20 -- prix réel de l'item
   local argent = joueur.getMoney()
     if argent >= prix then -- si l'argent est supérieur ou égal a l'argent alors
       joueur.removeMoney(prix) -- supprimer l'argent au joueur
@@ -57,9 +54,8 @@ end)
 -- Event de l'achat de l'item bread'
 RegisterNetEvent('wdev:achatPain') -- enregistrement de l'event
 AddEventHandler('wdev:achatPain', function() -- définition de l'event
-  local _src = source
   local joueur = ESX.GetPlayerFromId(source)  
-  local prix = 3 -- prix de l'item => changeable dans le config.lua
+  local prix = 5 -- prix réel de l'item
   local argent = joueur.getMoney()
     if argent >= prix then -- si l'argent est supérieur ou égal a l'argent alors
       joueur.removeMoney(prix) -- supprimer l'argent au joueur
@@ -73,9 +69,8 @@ end)
 -- Event de l'achat de l'item 'sandwich'
 RegisterNetEvent('wdev:achatSandwich') -- enregistrement de l'event
 AddEventHandler('wdev:achatSandwich', function() -- définition de l'event
-  local _src = source
   local joueur = ESX.GetPlayerFromId(source)  
-  local prix = 3 -- prix de l'item => changeable dans le config.lua
+  local prix = 10 -- prix réel de l'item
   local argent = joueur.getMoney()
     if argent >= prix then -- si l'argent est supérieur ou égal a l'argent alors
       joueur.removeMoney(prix) -- supprimer l'argent au joueur
@@ -89,9 +84,8 @@ end)
 -- Event de l'achat de l'item 'chocolate'
 RegisterNetEvent('wdev:achatChocolat') -- enregistrement de l'event
 AddEventHandler('wdev:achatChocolat', function() -- définition de l'event
-  local _src = source
   local joueur = ESX.GetPlayerFromId(source)  
-  local prix = 3 -- prix de l'item => changeable dans le config.lua
+  local prix = 15 -- prix réel de l'item
   local argent = joueur.getMoney()
     if argent >= prix then -- si l'argent est supérieur ou égal a l'argent alors
       joueur.removeMoney(prix) -- supprimer l'argent au joueur
