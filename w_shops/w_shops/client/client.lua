@@ -85,7 +85,7 @@ Citizen.CreateThread(function()
         for k,v in pairs(Config.position) do
             local plyCoords = GetEntityCoords(GetPlayerPed(-1), false)
             local dist = Vdist(plyCoords.x, plyCoords.y, plyCoords.z, v.x, v.y, v.z)
-            if dist <= 7 then -- distance entre le joueur et le marker auquel le marker s'affiche (augmenter ce chiffre peut augrandir la consommation du script)
+            if dist <= 7 then -- distance entre le joueur et le marker auquel le marker s'affiche (augmenter ce chiffre peut agrandir la consommation du script)
                 wait = 1 --                                                  __rotation__  ___taille____
                 DrawMarker(config.markertype, v.x, v.y, v.z, 0.0, 0.0, 0.0, -90.0,0.0,0.0, 1.1, 1.5, 1.1, config.red, config.green, config.blue, config.opacity, false, false, p19, false)  
             end
