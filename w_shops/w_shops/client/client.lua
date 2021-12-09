@@ -10,9 +10,9 @@ Citizen.CreateThread(function()
 end)
 
 -- MENU
-local mainMenu = RageUI.CreateMenu("", "achetez ce que vous souhaitez") -- menu principal
-local manger = RageUI.CreateSubMenu(mainMenu, "", "une petite faim ?") -- sous-menu nourriture
-local boire = RageUI.CreateSubMenu(mainMenu, "", "une petite soif ?") -- sous-menu boissons
+local mainMenu = RageUI.CreateMenu("", "MENU") -- menu principal
+local manger = RageUI.CreateSubMenu(mainMenu, "", "MENU") -- sous-menu nourriture
+local boire = RageUI.CreateSubMenu(mainMenu, "", "MENU") -- sous-menu boissons
 local open = false
 
 mainMenu.X = 0 -- position x du menu (1450 pour la droite de l'écran)
