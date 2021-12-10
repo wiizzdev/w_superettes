@@ -55,17 +55,17 @@ function shops() -- function qui fait le menu
                     })
                 end)
                 RageUI.IsVisible(boire, function()
-                    RageUI.Button("Eau", "Acheter de l'eau", {RightLabel = config.prixitemboire1}, true, {
+                    RageUI.Button("Eau", "Acheter de l'eau", {RightLabel = config.prixitemboire1}, true, { -- bouton du menu boisson
                         onSelected = function() -- si le joueur sélectionne ce bouton
                             TriggerServerEvent('wdev:achatEau') -- éxécuter l'event achatSandwich => personnalisable dans le server.lua
                         end
                     })
-                    RageUI.Button("Mojito", "Acheter du mojito", {RightLabel = config.prixitemboire2}, true, {
+                    RageUI.Button("Mojito", "Acheter du mojito", {RightLabel = config.prixitemboire2}, true, { -- bouton du menu boisson
                         onSelected = function() -- si le joueur sélectionne ce bouton
                             TriggerServerEvent('wdev:achatMojito') -- éxécuter l'event achatMojito => personnalisable dans le server.lua
                         end
                     })
-                    RageUI.Button("Whisky", "Acheter du whisky", {RightLabel = config.prixitemboire3}, true, {
+                    RageUI.Button("Whisky", "Acheter du whisky", {RightLabel = config.prixitemboire3}, true, { -- bouton du menu boisson
                         onSelected = function() -- si le joueur sélectionne ce bouton
                             TriggerServerEvent('wdev:achatWhisky') -- éxécuter l'event achatWhisky => personnalisable dans le server.lua
                         end
