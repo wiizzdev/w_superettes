@@ -15,6 +15,8 @@ local manger = RageUI.CreateSubMenu(mainMenu, "", "MENU") -- sous-menu nourritur
 local boire = RageUI.CreateSubMenu(mainMenu, "", "MENU") -- sous-menu boissons
 local open = false
 
+mainMenu.Display.Glare = false -- afficher la planète sur la bannière ?
+
 mainMenu.X = 0 -- position x du menu (1450 pour la droite de l'écran)
 mainMenu.Y = 0 -- position y du menu (780 pour le bas de l'écran)
 
