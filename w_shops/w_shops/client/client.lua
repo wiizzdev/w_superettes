@@ -19,9 +19,6 @@ mainMenu.Display.Glare = false -- afficher la planète sur la bannière principa
 manger.Display.Glare = false -- afficher la planète sur la bannière nourriture ?
 boire.Display.Glare = false -- afficher la planète sur la bannière boissons ?
 
-mainMenu.X = 0 -- position x du menu (1450 pour la droite de l'écran)
-mainMenu.Y = 0 -- position y du menu (780 pour le bas de l'écran)
-
 mainMenu.Closed = function() 
     open = false 
 end 
