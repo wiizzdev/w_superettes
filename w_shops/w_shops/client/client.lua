@@ -19,9 +19,7 @@ mainMenu.Display.Glare = false -- afficher la planète sur la bannière principa
 manger.Display.Glare = false -- afficher la planète sur la bannière nourriture ?
 boire.Display.Glare = false -- afficher la planète sur la bannière boissons ?
 
-mainMenu.Closed = function() 
-    open = false 
-end 
+mainMenu.Closed = function() open = false end
 
 function shops() -- function qui fait le menu
     if open then 
