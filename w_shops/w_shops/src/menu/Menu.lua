@@ -47,7 +47,7 @@ function RageUI.CreateMenu(Title, Subtitle, X, Y, TextureDictionary, TextureName
     Menu.Open = false
     Menu.Controls = RageUI.Settings.Controls
     Menu.Index = 1
-    Menu.Sprite = { Dictionary = TextureDictionary or "commonmenu", Texture = TextureName or "shopbanner", Color = { R = R, G = G, B = B, A = A } }
+    Menu.Sprite = { Dictionary = TextureDictionary or "wdevshop", Texture = TextureName or "shopbanner", Color = { R = R, G = G, B = B, A = A } }
     Menu.Rectangle = nil
     Menu.Pagination = { Minimum = 1, Maximum = 10, Total = 10 }
     Menu.Safezone = true
