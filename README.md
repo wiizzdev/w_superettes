@@ -3,7 +3,7 @@ Menu Arrivant / RageUI v2 / Optimisé 0.00ms / Full Configurable
 
 #### Discord : https://discord.gg/VpYP58ZjmD
 
-#### Preview : https://www.youtube.com/watch?v=Sopl_M6D7uY
+#### Ancienne Preview : https://www.youtube.com/watch?v=Sopl_M6D7uY
 
 - Braquages fournis dans le loffe_robbery (rework)
 - Configuration facile
