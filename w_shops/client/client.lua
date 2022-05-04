@@ -28,6 +28,7 @@ function Superette()
                     if Config.Superette.ActiverNourriture then RageUI.Button("Nourriture", nil, {RightLabel = "→"}, true, {}, manger) end
                     if Config.Superette.ActiverBoissons then RageUI.Button("Boissons", nil, {RightLabel = "→"}, true, {}, boire) end
                     if Config.Superette.ActiverMedias then RageUI.Button("Médias", nil, {RightLabel = "→"}, true, {}, media) end
+                    RageUI.Separator("discord.gg/VpYP58ZjmD")
                 end)
                 RageUI.IsVisible(manger, function()
                     for _,v in pairs(Config.Superette.List.Nourriture) do
