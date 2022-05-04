@@ -10,4 +10,4 @@ Menu Arrivant / RageUI v2 / Optimisé 0.00ms / Full Configurable
 
 ### Screenshot :
 
-![screenshot](https://cdn.discordapp.com/attachments/658236178268684291/916849696700522536/unknown.png)
+![screenshot](https://cdn.discordapp.com/attachments/658236178268684291/971421269906059284/unknown.png?)
