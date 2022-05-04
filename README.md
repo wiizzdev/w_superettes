@@ -1,5 +1,5 @@
 # w_shops
-Menu Arrivant / RageUI v2 / Optimisé 0.00ms / Full Configurable
+Supérettes / RageUI v2 / Optimisé 0.00ms / Full Configurable
 
 #### Discord : https://discord.gg/VpYP58ZjmD
 
