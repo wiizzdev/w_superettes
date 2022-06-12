@@ -1,3 +1,7 @@
+    -- G_Corporation -- wiizz -- 
+  -- https://github.com/wiizzdev --
+ -- https://discord.gg/VpYP58ZjmD --
+
 ESX = nil
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
