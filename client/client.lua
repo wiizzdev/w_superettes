@@ -1,3 +1,7 @@
+    -- G_Corporation -- wiizz -- 
+  -- https://github.com/wiizzdev --
+ -- https://discord.gg/VpYP58ZjmD --
+
 Citizen.CreateThread(function()
 	while ESX == nil do
 		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
