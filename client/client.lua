@@ -37,7 +37,7 @@ function Superettes()
                                 end
                             })
                         else
-                            RageUI.List(v.label.." - ~g~"..v.price.."$", {"~g~Liquide~s~", "~b~Banque~s~"}, Index, nil, {}, true, {
+                            RageUI.List(v.label.." - "..v.price.."$", {"~g~Liquide~s~", "~b~Banque~s~"}, Index, nil, {}, true, {
                                 onListChange = function(list) Index = list end,
                                 onSelected = function(list)
                                     if list == 1 then
@@ -59,7 +59,7 @@ function Superettes()
                                 end
                             })
                         else
-                            RageUI.List(v.label.." - ~g~"..v.price.."$", {"~g~Liquide~s~", "~b~Banque~s~"}, Index, nil, {}, true, {
+                            RageUI.List(v.label.." - "..v.price.."$", {"~g~Liquide~s~", "~b~Banque~s~"}, Index, nil, {}, true, {
                                 onListChange = function(list) Index = list end,
                                 onSelected = function(list)
                                     if list == 1 then
@@ -81,7 +81,7 @@ function Superettes()
                                 end
                             })
                         else
-                            RageUI.List(v.label.." - ~g~"..v.price.."$", {"~g~Liquide~s~", "~b~Banque~s~"}, Index, nil, {}, true, {
+                            RageUI.List(v.label.." - "..v.price.."$", {"~g~Liquide~s~", "~b~Banque~s~"}, Index, nil, {}, true, {
                                 onListChange = function(list) Index = list end,
                                 onSelected = function(list)
                                     if list == 1 then
