@@ -1,4 +1,4 @@
-# w_shops
+# w_superettes
 Supérettes / RageUI v2 / Optimisé 0.00ms / Full Configurable
 
 #### Discord : https://discord.gg/VpYP58ZjmD
