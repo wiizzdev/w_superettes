@@ -5,10 +5,10 @@ Citizen.CreateThread(function()
 	end
 end)
 
-local mainMenu = RageUI.CreateMenu("", "Supérette", 0, 0, "commonmenu", "shopbanner")
-local nourriture = RageUI.CreateSubMenu(mainMenu, "", "Nourriture")
-local boissons = RageUI.CreateSubMenu(mainMenu, "", "Boissons")
-local divers = RageUI.CreateSubMenu(mainMenu, "", "Divers")
+local mainMenu = RageUI.CreateMenu("Supérette", "MENU")
+local nourriture = RageUI.CreateSubMenu(mainMenu, "Nourriture", "MENU")
+local boissons = RageUI.CreateSubMenu(mainMenu, "Boissons", "MENU")
+local divers = RageUI.CreateSubMenu(mainMenu, "Divers", "MENU")
 local open,Index = false,1
 
 mainMenu.Closed = function() open = false end
